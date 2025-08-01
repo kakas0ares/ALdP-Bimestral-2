@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int i;
+
+    // Cabeçalho da tabela
+    printf("Numero\tQuadrado\tCubo\n");
+
+    // Loop de 0 a 10
+    for (i = 0; i <= 10; i++) {
+        int quadrado = i * i;
+        int cubo = i * i * i;
+
+        // Imprimindo os valores com tabulação
+        printf("%d\t%d\t\t%d\n", i, quadrado, cubo);
+    }
+
+    return 0;
+}

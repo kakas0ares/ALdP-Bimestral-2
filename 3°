@@ -5,7 +5,6 @@ int main() {
     int montante;
     long numero_conta;
 
-    // Solicita os dados ao usuário
     printf("Digite sua idade: ");
     scanf("%hd", &idade); // %hd para short
 
@@ -15,7 +14,6 @@ int main() {
     printf("Digite o número da conta: ");
     scanf("%ld", &numero_conta); // %ld para long
 
-    // Exibe os dados informados
     printf("\nDados do depósito:\n");
     printf("Idade: %hd anos\n", idade);
     printf("Montante a depositar: R$ %d\n", montante);
